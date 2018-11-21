@@ -151,7 +151,74 @@ hr {
 .section-title p {
 	font-size: 18px;
 }
-.btn-custom {
+
+
+.section-title1 {
+	margin-bottom: 40px;
+}
+.section-title1 h2 {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+.section-title1 h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #6e1e29 0%, #ff6378 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+.section-title1 p {
+	font-size: 18px;
+}
+
+.btn-custom1 {
+	font-family: 'Raleway', sans-serif;
+	padding: 14px 34px;
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 25px;
+	transition: all 0.5s linear;
+	background: linear-gradient(to right, #2e2829 0%, #241918 100%);
+	color: white;
+	border: 2px solid rgb(196, 184, 19);
+}
+.btn-custom1:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+	color: #fff;
+	background-image: none;
+	background-color:#23ca23 ;
+	border: 2px solid rgb(196, 184, 19);
+
+}
+
+.btn-custom2 {
+	font-family: 'Raleway', sans-serif;
+	padding: 14px 34px;
+	letter-spacing: 1px;
+	margin-left: 5px;
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 25px;
+	transition: all 0.5s linear;
+	background: linear-gradient(to right, #2e2829 0%, #241918 100%);
+	color: white;
+	border: 2px solid rgb(196, 184, 19);
+}
+.btn-custom2:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+	color: #fff;
+	background-image: none;
+	background-color:#e72121 ;
+	border: 2px solid rgb(196, 184, 19);
+
+}
+
+.btn-custom {	
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
